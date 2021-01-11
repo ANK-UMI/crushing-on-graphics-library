@@ -1,7 +1,13 @@
 <h2>Fractal(프랙탈)</h2>
-프랙탈은 자기 유사성을 가진다. Fractal의 등장은 Algorithm만으로 Rendering할 수 있을 정도로 기술이 발전하게 된 계기가 되었다. 기존에는 Polygon으로 3d 공간을 렌더링했었다. 하지만 Polygon으로 표현하기 힘든 3D Fractal을 표현하기 위해, 모든 것을 Pixel 단위로 추적하는 Ray Marching algorithm이 고안되었다. 수학 방정식 덕분에 Code와 Data, Rendering 등 전반적으로 Optimization 될 수 있었다. 이렇듯 3D 프랙탈을 실시간으로 렌더링하는 것은 높은 기술력을 요구한다. 이전부터 게임 개발에 있어서 그래픽스 엔진의 실시간 표현과 3D 애니메이션 특수효과 기술 구현은 아주 중요한 부분이었다. 게임 개발자들 사이에서는 작은 실행 파일 크기의 게임 엔진을 만들어 시각 효과를 구현하던 '데모씬(Demoscene)'이라는 문화가 이어져오고 있다. 이들은 기술력을 과시하기 위해 데모씬에 프랙탈 모델을 사용하곤 한다. <br>
+프랙탈은 일부 작은 조각이 전체와 비슷한 기하학적 형태를 띄는데, 이러한 특징을 '자기유사성'이라고 한다. 다시 말해, 자기 유사성을 갖는 기하학적 구조를 프랙탈 구조라고 한다. 브누아 망델브로가 처음 사용한 단어로, 어원은 '조각났다'라는 뜻의 라틴어 형용사 'fractus'이다. 프랙탈 구조는 가연이 가지는 기본적 구조다. 프랙탈은 수학적 도형으로 연구되기도 하는데, 이는 종종 컴퓨터 소프트웨어를 이용한 재귀적이거나 반복적인 작업에 의한 반복적인 패턴으로 만들어진다. 대표적인 프랙탈 도형으로는 망델브로 집합, 칸토어 집합, 시에르핀스키 삼각형, 페아노 곡선, 코흐 곡선 등이 있다. <br>
 <br>
-<h3>mandelbrot set(망델브로 집합)</h3>
+프랙탈의 역사는 주로 이론적 연구에서 컴퓨터 그래픽의 현대적인 적용에 이르는 길을 따른다. 
+
+<br>
+Fractal의 등장은 Algorithm만으로 Rendering할 수 있을 정도로 기술이 발전하게 된 계기가 되었다. 기존에는 Polygon으로 3d 공간을 렌더링했었다. 하지만 Polygon으로 표현하기 힘든 3D Fractal을 표현하기 위해, 모든 것을 Pixel 단위로 추적하는 Ray Marching algorithm이 고안되었다. 수학 방정식 덕분에 Code와 Data, Rendering 등 전반적으로 Optimization 될 수 있었다. 이렇듯 3D 프랙탈을 실시간으로 렌더링하는 것은 높은 기술력을 요구한다. 이전부터 게임 개발에 있어서 그래픽스 엔진의 실시간 표현과 3D 애니메이션 특수효과 기술 구현은 아주 중요한 부분이었다. 게임 개발자들 사이에서는 작은 실행 파일 크기의 게임 엔진을 만들어 시각 효과를 구현하던 '데모씬(Demoscene)'이라는 문화가 이어져오고 있다. 이들은 기술력을 과시하기 위해 데모씬에 프랙탈 모델을 사용하곤 한다. <br>
+<br>
+<h3>시간매개형 프랙탈(Escape-time fractals): mandelbrot set(망델브로 집합), julia set(줄리아 집합)</h3>
+<h4>mandelbrot set</h4>
 The Mandelbulb is a three-dimensional fractal, constructed by Daniel White and Paul Nylander using spherical coordinates in 2009. A canonical 3-dimensional Mandelbrot set does not exist, since there is no 3-dimensional analogue of the 2-dimensional space of complex numbers. It is possible to construct Mandelbrot sets in 4 dimensions using quaternions and bicomplex numbers. <br>
 <br>
 <ul>
@@ -19,7 +25,16 @@ See also Mandelbulb, Mandelbox, fractals by Hausdorff dimension. <br>
 Benoit S. Mandelbrot(1924 ~2010)의 2D 프랙탈 만델브로트 집합처럼 흥미롭고 무한히 복잡한 경계를 가진 3D 프랙탈을 찾으려는 시도가 있었지만 그 결과는 신통치 않았다. 하지만 2009년 Fractalforum.com 의 3D Fractal 쓰레드를 통해서 Daniel White와 Paul Nylander가 마침내 'Mandelbulb'를 발견했다. <br>
 <br>
 
-<h3>julia set(줄리아 집합)</h3>
+<h3>반복함수계(Iterated function system)</h3>
+<ul>
+<li>칸토어 집합</li>
+<li>시에르핀스키 삼각형</li>
+<li>시에르핀스키 카펫</li>
+<li>코흐 곡선</li>
+<li>페아노 곡선</li>
+</ul>
+
+<br>
 
 
 <br>
