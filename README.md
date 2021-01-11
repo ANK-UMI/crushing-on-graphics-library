@@ -4,13 +4,13 @@
 <h3>mandelbrot set(망델브로 집합)</h3>
 The Mandelbulb is a three-dimensional fractal, constructed by Daniel White and Paul Nylander using spherical coordinates in 2009. A canonical 3-dimensional Mandelbrot set does not exist, since there is no 3-dimensional analogue of the 2-dimensional space of complex numbers. It is possible to construct Mandelbrot sets in 4 dimensions using quaternions and bicomplex numbers. <br>
 <br>
-
-* Quadratic formula
-* Cubic formula
-* Quintic formula
-* Power nine formula
-* Spherical formula
-
+<ul>
+<li>Quadratic formula</li>
+<li>Cubic formula</li>
+<li>Quintic formula</li>
+<li>Power nine formula</li>
+<li>Spherical formula</li>
+</ul>
 <br>
 See also Mandelbulb, Mandelbox, fractals by Hausdorff dimension. <br>
 <br>
