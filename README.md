@@ -1,6 +1,3 @@
-<style>
-  color: #000;
-</style>
 
 * <a href = "./text/fractal.md">Fractal</a>
 
