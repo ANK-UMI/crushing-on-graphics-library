@@ -1,3 +1,4 @@
+<h2>GLSL TEXTBOOK</h2>
 <ul>
 <li><a href = "./text/fractal.md">Fractal</a></li>
 <li><a href = "./text/power_of_two.md">Power of two(2ⁿ)</a></li>
